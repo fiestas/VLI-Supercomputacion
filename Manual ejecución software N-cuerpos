@@ -1,0 +1,12 @@
+Instrucciones para el software N-cuerpos:
+
+Desempacar el zip
+
+Para compilar el software:
+make cpu-4th
+
+Para ejecutar el solftware:
+mpirun -np 4 ./cpu-4th > salida.txt
+(aquí se estan usando 4 procesadores/núcleos, y se direcciona la salida en salida.txt)
+
+Probar esto, para luego analizar el archivo de salida ...
