@@ -10,16 +10,7 @@ Además se utilizará el modelo de N-cuerpos (en C++) en paralelo (ver descripci
 - A4: Desarrollo del software e instalación. Aqúi debemos decidir que software usar (desarrollar). Tenemos actualmente una opción (ver el código Nagel-Schreckenberg , compartido en GIT) para simular tráfico. Esta debe ser probada y paralelizada
 - A5: Test de simulación y resultados. Esto se hará una vez instalado el software
 
-Software para VLI Supercomputacion
-Instrucciones para instalar el MPICH:
-Primero, deben tener el compilador en paralelo MPICH: 
-https://www.mpich.org/documentation/guides/
 
-Sistema Operativo:  Linux
 
-Para compilar el software NBody:
-make cpu-4th
 
-Para ejecutar el solftware NBody:
-mpirun -np 4 ./cpu-4th
 
